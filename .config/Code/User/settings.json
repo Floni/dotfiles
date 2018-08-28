@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Base16 Dark Ocean",
+    "materialTheme.fixIconsRunning": false,
+    "window.zoomLevel": -1,
+    "editor.fontFamily": "'Noto mono'",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontFamily": "Noto mono",
+    "terminal.integrated.fontSize": 12,
+}
