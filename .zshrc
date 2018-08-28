@@ -100,12 +100,11 @@ export VISUAL='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# list aliases
+# misc aliases
 alias l='ls -CF'
 alias la='ls -a'
 alias ll='ls -alF'
-
-# vim aliases
+alias c='clear'
 alias v='vim'
 alias vi='vim'
 
@@ -117,14 +116,14 @@ alias gps='git push'
 alias gpl='git pull'
 alias gb='git branch'
 alias gco='git checkout'
-alias gl='git log'
+alias gl='git log --oneline'
 alias gd='git diff'
 
 # pacman aliases
 alias pac='sudo pacman'
 alias pacs='pac -S'
 alias pacss='pac -Ss'
-alias pacr='pac -R'
+alias pacr='pac -Rs'
 alias pacup='pac -Syu'
 
 # pacaur aliases
