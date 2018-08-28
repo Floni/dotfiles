@@ -99,7 +99,14 @@ export VISUAL='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll='ls -alF'
-alias la='ls -a'
 alias l='ls -CF'
+alias la='ls -a'
+alias ll='ls -alF'
+
+alias v='vim'
+alias vi='vim'
+
+alias pac='sudo pacman -S'
+alias update='sudo pacman -Syu'
+alias aur='pacaur -S'
 
