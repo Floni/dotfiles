@@ -1,11 +1,14 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Base16 Dark Ocean",
+    "workbench.colorTheme": "Material Theme Ocean",
     "materialTheme.fixIconsRunning": false,
     "window.zoomLevel": -1,
     "editor.fontFamily": "'Noto mono'",
     "editor.fontSize": 12,
     "terminal.integrated.fontFamily": "Noto mono",
     "terminal.integrated.fontSize": 12,
+    "workbench.colorCustomizations": {},
+    "materialTheme.accentPrevious": "Blue",
+    "material-icon-theme.opacity": 1,
 }

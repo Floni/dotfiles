@@ -111,6 +111,7 @@ alias ....='cd ....'
 alias c='clear'
 alias v='vim'
 alias vi='vim'
+alias cat='bat -n'
 
 # git aliases
 alias gi='git init'
