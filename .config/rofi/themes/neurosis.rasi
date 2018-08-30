@@ -1,0 +1,75 @@
+/*
+* Rofi neurosis theme by Floni 
+*/
+
+* {
+    backgroundcolor: #0f1419;
+    separatorcolor: #3b4252;
+    foregroundcolor: #839496;
+    selectioncolor: #212836;
+    font: "Sans Regular 10";
+    border-color: @separatorcolor;
+    background-color: @backgroundcolor;
+    text-color: @foregroundcolor;
+}
+
+#listview {
+    dynamic: false;
+    lines: 8;
+}
+
+#window {
+    anchor: south;
+    location: center;
+    background-color: @backgroundcolor;
+    border-color: @separatorcolor;
+    border: 1;
+    border-radius: 2px;
+    width: 500;
+}
+
+#mainbox {
+   background-color: @backgroundcolor;
+}
+
+#element {
+    padding: 5;
+    border-color: @backgroundcolor;
+    background-color: @backgroundcolor;
+}
+
+#element.selected.normal {
+    background-color: @selectioncolor;
+    text-color: @foregroundcolor;
+}
+
+#element.alternate.normal {
+    background-color: @backgroundcolor;
+}
+
+#element.normal.active {
+    background-color: @backgroundcolor;
+}
+
+#element.alternate.active {
+    background-color: @backgroundcolor;
+}
+
+#element.selected.active {
+    background-color: @selectioncolor;
+    text-color: @foregroundcolor;
+}
+
+#inputbar {
+    border: 0 solid 0 solid 1 solid 0 solid;
+    border-color: @separatorcolor;
+}
+
+#prompt {
+    padding: 8;
+    background-color: @backgroundcolor;
+}
+
+#entry {
+    padding: 8;
+}
