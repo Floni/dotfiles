@@ -133,8 +133,8 @@ alias pacss='pac -Ss'
 alias pacr='pac -Rs'
 alias pacup='pac -Syu'
 
-# pacaur aliases
-alias aur='pacaur'
+# aur aliases
+alias aur='yay'
 alias aurs='aur -S'
 alias aurss='aur -Ss'
 alias aurr='aur -R'
