@@ -139,3 +139,5 @@ alias aurs='aur -S'
 alias aurss='aur -Ss'
 alias aurr='aur -R'
 
+# dotfile git alias
+alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
