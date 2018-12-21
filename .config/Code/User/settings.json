@@ -2,8 +2,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "One Dark Pro",
-    "materialTheme.fixIconsRunning": false,
-    "window.zoomLevel": 0,
     "editor.fontFamily": "'Noto mono'",
     "editor.fontSize": 12,
     "terminal.integrated.fontFamily": "Noto mono",
