@@ -141,3 +141,8 @@ alias aurr='aur -R'
 
 # dotfile git alias
 alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# tilix sourcing vte.sh
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
