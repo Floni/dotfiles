@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rakr/vim-one'
-Plugin 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,3 +54,8 @@ endif
 colorscheme one
 set background=dark
 
+" NERDTree when opening with no file specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Toggle NERDTree with Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
