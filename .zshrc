@@ -82,8 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-export EDITOR='vim'
-export VISUAL='vim'
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -109,8 +109,8 @@ alias ..='cd ..'
 alias ...='cd ...'
 alias ....='cd ....'
 alias c='clear'
-alias v='vim'
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
 alias cat='bat -n'
 
 # git aliases
