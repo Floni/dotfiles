@@ -2,12 +2,13 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins
 Plug 'Valloric/YouCompleteMe'
-Plug 'rakr/vim-one'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'jiangmiao/auto-pairs'
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -43,7 +44,7 @@ if (has("termguicolors"))
 endif
 
 " Colorscheme
-colorscheme one
+colorscheme onedark
 set background=dark
 
 " NERDTree when opening with no file specified
