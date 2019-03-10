@@ -7,12 +7,18 @@ Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
 syntax enable
 set number
 set laststatus=2
+
+" Tab is 4 spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Split config and binds
 set splitbelow
